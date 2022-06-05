@@ -6,7 +6,7 @@ import {colors} from './src/util/colors'
 import {Focus} from './src/features/focus'
 import {Timer} from './src/features/Timer';
 
-export default App = ()=> {
+export default function App() {
   const[curSubject,setCurSubject] = useState('');
   const [todo, setToDo]=useState([]);
 
